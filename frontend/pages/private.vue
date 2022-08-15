@@ -1,9 +1,9 @@
 <template>
-  <p>Content</p>
+  <p>Private</p>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'Private'
 }
 </script>
