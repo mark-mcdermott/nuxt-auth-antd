@@ -11,10 +11,10 @@
           <span class="ant-page-header-heading-sub-title">A Very Nice Site 😎</span>
         </div>
         <div>
-          <a-button key="3"><NuxtLink to="/public">Public</NuxtLink></a-button>
-          <a-button key="3"><NuxtLink to="/private">Private</NuxtLink></a-button>
+          <a-button key="1"><NuxtLink to="/public">Public</NuxtLink></a-button>
+          <a-button key="2"><NuxtLink to="/private">Private</NuxtLink></a-button>
           <a-button key="3"><NuxtLink to="/log-in">Log In</NuxtLink></a-button>
-          <a-button key="1" type="primary"><NuxtLink to="/log-in">Sign Up</NuxtLink></a-button>
+          <a-button key="4" type="primary"><NuxtLink to="/log-in">Sign Up</NuxtLink></a-button>
         </div>
       </div>
       <a-layout-content style="margin: 10px 0 0; padding: 0 50px">
