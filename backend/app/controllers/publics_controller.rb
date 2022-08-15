@@ -4,7 +4,9 @@ class PublicsController < ApplicationController
   # GET /publics
   def index
     @publics = Public.all
-
+    @publics.each do |elem|
+      puts elem
+    end
     render json: @publics
   end
 

@@ -1,21 +1,21 @@
 <template>
   <div>
-    <h1>{{name}}</h1>
+    <h1>{{title}}</h1>
     <p v-for="elem in private">{{elem}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Private',
   data () {
     return {
+      title: 'Private',
       private: []
     }
   },
   methods: {
     async updateData() {
-      this.public = await this.$axios.$get('/private')
+      this.private = await this.$axios.$get('/privates')
     }
   },
   mounted () {

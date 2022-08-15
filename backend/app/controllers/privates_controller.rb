@@ -4,7 +4,9 @@ class PrivatesController < ApplicationController
   # GET /privates
   def index
     @privates = Private.all
-
+    @privates.each do |elem|
+      puts elem
+    end
     render json: @privates
   end
 
